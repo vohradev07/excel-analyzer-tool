@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import os
-from fuzzywuzzy import fuzz, process
+from rapidfuzz import fuzz, process
 from io import BytesIO
 
 # Set page configuration
